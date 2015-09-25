@@ -1,6 +1,7 @@
 body {
   background: rgba(224, 228, 204, 1);
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
 }
 table {
   width: 100%;
@@ -10,13 +11,24 @@ table {
   -mozz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+#container {
+  background: #fff;
+  width: 95%;
+  margin: 0 auto;
+}
+.clearfix: after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
 section, header, aside {
-  background: white;
-  margin: 50px;
+  background: #fff;
+  /*margin: 50px;*/
   padding: 10px;
-  min-width: 700px;
-  max-width: 1080px;
+
 }
 header {
   margin-bottom: 0;
@@ -26,12 +38,15 @@ section {
   margin-bottom: 0px;
   display: block;
   float: left;
+  width: 72%;
 }
 aside {
-  color: #69D2E7;
+  color: #fff;
+  background: #69D2E7;
   margin-top: 2px;
   display: block;
   float: right;
+  width: 27.5%;
 }
 
 footer {
