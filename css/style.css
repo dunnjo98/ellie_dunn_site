@@ -2,16 +2,53 @@ body {
   background: rgba(224, 228, 204, 1);
   font-family: Helvetica, Arial, sans-serif;
 }
+table {
+  width: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -mozz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section, header, aside {
+  background: white;
+  margin: 50px;
+  padding: 10px;
+  min-width: 700px;
+  max-width: 1080px;
+}
+header {
+  margin-bottom: 0;
+}
+section {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  display: block;
+  float: left;
+}
+aside {
+  color: #69D2E7;
+  margin-top: 2px;
+  display: block;
+  float: right;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+}
+footer p {
+  font-size: 0.75em;
+}
+
+/*just a color palette section */
 #aoi {
   background: #69D2E7;
   /* background: rgba(105, 210, 231, 1); */
   width: 20px;
   height: 20px;
   border: #FFF 2px solid;
-}
-
-table {
-  width: 100%;
 }
 
 #pond {
